@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sinna</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header { 
+  color: #ff3c97;
+  padding: 10px;
+  text-align: center;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+
+}
+.column.side > img{width: 95%;}
+.column.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+  width: 100%;
+  }
+}
+span{
+     background-color: #ff6e9e;
+     color: white;
+     font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Công Ty Hoa Tươi Nhân Ái</h1>
+</div>
+<div class="row">
+  <div class="column side">
+    <img src="images/eâ.jpg">
+  </div>
+
+  <div class="column middle">
+    1. <span class="c1">Gioi thieu</span>
+    <ul style="list-style-type: square;">
+        <li>Chuyen cung cap cac loai hoa</li>
+        <li>Chuyen cung cap cac loai hoa</li>
+        <li>Chuyen cung cap cac loai hoa</li>
+        <li>Chuyen cung cap cac loai hoa</li>
+    </ul>
+     2. <span class="c1">Lien he</span>
+     <ul style="list-style-type: circle; ;">
+        <li>Chuyen cung cap cac loai hoa</li>
+        <li>Chuyen cung cap cac loai hoa</li>
+    </ul>
+</div>
+<hr style="clear: both">
+</div>
+</body>
+</html>
